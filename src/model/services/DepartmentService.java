@@ -11,8 +11,8 @@ public class DepartmentService {
 		
 		List<Department> list = new ArrayList<>();
 		list.add(new Department(1, "Electronics"));
-		list.add(new Department(1, "Computers"));
-		list.add(new Department(1, "Books"));
+		list.add(new Department(2, "Computers"));
+		list.add(new Department(3, "Books"));
 		return list;
 	}
 
